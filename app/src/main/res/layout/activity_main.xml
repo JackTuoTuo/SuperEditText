@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-   <com.jack.superedittext.SuperEditText
+   <com.jack.super_edittext.SuperEditText
 
        style="@style/SuperEditText.Clear"
        />

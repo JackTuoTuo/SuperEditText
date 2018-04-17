@@ -1,4 +1,4 @@
-package com.jack.superedittext;
+package com.jack.super_edittext;
 
 import android.content.Context;
 import android.content.res.TypedArray;

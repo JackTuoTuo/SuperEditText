@@ -1,4 +1,4 @@
-package com.jack.superedittext;
+package com.jack.super_edittext;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
