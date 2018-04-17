@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+
+
+    <!-- ConstraintEditText 基础样式-->
+    <style name="SuperEditText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">30dp</item>
+        <item name="android:background">@drawable/shape_search_bg</item>
+        <item name="set_et_text_color">#333333</item>
+        <item name="set_et_text_size">14sp</item>
+        <item name="set_et_hint_text_color">#C7C7CD</item>
+        <item name="set_et_hint_text_size">14sp</item>
+        <item name="set_et_marginLeft">8dp</item>
+        <item name="set_et_paddingLeft">8dp</item>
+        <item name="set_et_left_drawable">@drawable/ic_search</item>
+    </style>
+
+    <!-- 带有动画效果的输入框  不带扫描功能 -->
+    <style name="SuperEditText.Clear" parent="SuperEditText">
+        <item name="set_et_drawablePadding">8dp</item>
+        <item name="set_iv_clear_height">30dp</item>
+        <item name="set_iv_clear_marginRight">8dp</item>
+        <item name="set_iv_clear_padding">8dp</item>
+        <item name="set_iv_clear_src">@drawable/ic_clear</item>
+        <item name="set_iv_clear_width">30dp</item>
+    </style>
+
+
+    <!-- 带有动画效果的输入框 -->
+    <style name="SuperEditText.Scan" parent="SuperEditText.Clear">
+        <item name="set_has_scan">true</item>
+        <item name="set_iv_scan_height">30dp</item>
+        <item name="set_iv_scan_width">30dp</item>
+        <item name="set_iv_scan_src">@drawable/ic_scan</item>
+        <item name="set_iv_scan_padding">5dp</item>
+        <item name="set_iv_scan_marginRight">5dp</item>
+    </style>
+
+
+
+</resources>

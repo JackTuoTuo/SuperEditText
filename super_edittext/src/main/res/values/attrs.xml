@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 带动画效果的有清楚按钮的EditText-->
+    <declare-styleable name="SuperEditText">
+
+        <!-- 是否用扫描功能-->
+        <attr name="set_has_scan" format="boolean" />
+
+        <!-- 清除-->
+        <!--imageView的宽 -->
+        <attr name="set_iv_clear_width" format="dimension|reference" />
+        <!--imageView的高 -->
+        <attr name="set_iv_clear_height" format="dimension|reference" />
+        <!--imageView的图片 -->
+        <attr name="set_iv_clear_src" format="reference" />
+        <!--imageView的padding,通过这个属性和宽高可以设置图片显示大小以及点击区域的大小 -->
+        <attr name="set_iv_clear_padding" format="dimension|reference" />
+        <!--imageView的marginRight,通过这个属性可以这是图片距离父控件的右边距离 -->
+        <attr name="set_iv_clear_marginRight" format="dimension|reference" />
+        <!-- 清除-->
+
+
+        <!-- 扫描-->
+        <!--imageView的宽 -->
+        <attr name="set_iv_scan_width" format="dimension|reference" />
+        <!--imageView的高 -->
+        <attr name="set_iv_scan_height" format="dimension|reference" />
+        <!--imageView的图片 -->
+        <attr name="set_iv_scan_src" format="reference" />
+        <!--imageView的padding,通过这个属性和宽高可以设置图片显示大小以及点击区域的大小 -->
+        <attr name="set_iv_scan_padding" format="dimension|reference" />
+        <!--imageView的marginRight,通过这个属性可以这是图片距离父控件的右边距离 -->
+        <attr name="set_iv_scan_marginRight" format="dimension|reference" />
+        <!-- 扫描-->
+
+
+        <!--EditText背景 没有背景的时候默认为@null-->
+        <attr name="set_et_bg" format="reference" />
+        <!--EditText左边搜索图标-->
+        <attr name="set_et_left_drawable" format="reference" />
+        <!--EditText左边搜索图标距离文字位置-->
+        <attr name="set_et_drawablePadding" format="dimension|reference" />
+        <!--EditText距离imageView距离-->
+        <attr name="set_et_marginRight" format="dimension|reference" />
+        <!--EditText距离父控件左边距离-->
+        <attr name="set_et_marginLeft" format="dimension|reference" />
+        <!--EditText是否显示光标-->
+        <attr name="set_et_cursorVisible" format="boolean" />
+        <!--EditText初始是否获取焦点-->
+        <attr name="set_et_focusable" format="boolean" />
+        <!--EditText图片左边距离本身控件左边的距离-->
+        <attr name="set_et_paddingLeft" format="dimension|reference" />
+        <!--EditText提示文字-->
+        <attr name="set_et_hint_text" format="string|reference" />
+        <!--EditText提示文字大小-->
+        <attr name="set_et_hint_text_size" format="dimension|reference" />
+        <!--EditText提示文字颜色-->
+        <attr name="set_et_hint_text_color" format="color|reference" />
+        <!--EditText输入文字-->
+        <attr name="set_et_text" format="string|reference" />
+        <!--EditText输入文字大小-->
+        <attr name="set_et_text_size" format="dimension|reference" />
+        <!--EditText输入文字颜色-->
+        <attr name="set_et_text_color" format="color|reference" />
+
+    </declare-styleable>
+</resources>

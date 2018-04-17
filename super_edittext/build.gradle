@@ -1,0 +1,63 @@
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion 26
+
+
+
+    defaultConfig {
+        minSdkVersion 19
+        targetSdkVersion 26
+        versionCode 1
+        versionName "1.0"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    lintOptions {
+        abortOnError false
+    }
+
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+
+    implementation 'com.android.support.constraint:constraint-layout:1.0.2'
+}
+
+// 添加上传 jCenter 的配置
+apply plugin: 'com.novoda.bintray-release'
+
+//添加
+publish {
+    //用户名
+    userOrg = 'jacktuotuo'
+
+    //仓库的名字
+    repoName = 'maven'
+
+    //jCenter上的路径
+    groupId = 'com.jacktuotuo.customview'
+
+    //项目名称
+    artifactId = 'SuperEditText'
+
+    //版本号
+    publishVersion = '1.0.0'
+
+    //描述
+    desc = 'An Edittext that drives the effect of the drawing and the removal function of the scan code'
+
+    //个人网站
+    website = 'http://blog.csdn.net/qq_33553515'
+}
+
+// gradle clean build bintrayUpload -PbintrayUser=jacktuotuo -PbintrayKey=key -PdryRun=false
+// 最终引用路径 compile 'com.jacktuotuo.customview:SuperEditText:1.0.0
+
