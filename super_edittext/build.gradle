@@ -49,7 +49,7 @@ publish {
     artifactId = 'SuperEditText'
 
     //版本号
-    publishVersion = '1.0.0'
+    publishVersion = '1.0.1'
 
     //描述
     desc = 'An Edittext that drives the effect of the drawing and the removal function of the scan code'
