@@ -1,4 +1,4 @@
-package com.tuo.customview;
+package com.tuo.super_deittext;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -24,7 +24,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 /**
- * @describe 带有动画效果，具有清除和扫码功能的EditText
+ * 描述：带有动画效果，具有清除和扫码功能的EditText
  * 作者：Tuo on 2018/4/17 15:28
  * 邮箱：839539179@qq.com
  */
